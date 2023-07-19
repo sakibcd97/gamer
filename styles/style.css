@@ -190,6 +190,8 @@ margin-bottom: 10px;
 .action{
     display: flex;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 .action:hover{
     border: 5px solid black;
@@ -272,7 +274,6 @@ footer{
     margin-top: 30px;
 }
 .main-avater{
-    background-color: beige;
     padding: 20px;
 }
 @media screen and (max-width:576px) {
