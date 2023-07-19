@@ -306,8 +306,11 @@ footer{
         justify-content: center;
         align-items: center;
         margin-bottom: 0%;
+        text-align: center;
+        font-size: 10px;
+        
     }
-    
+
 }
 @media screen and (max-width:576px) {
     .section-two{
@@ -367,6 +370,7 @@ footer{
        text-align: center;
        align-items: center;
        justify-content: center;
+       width: 100%;
     }
 }
 @media screen and (max-width:576px){
