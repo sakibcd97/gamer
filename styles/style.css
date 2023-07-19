@@ -158,6 +158,7 @@ h4{
     grid-template-columns: repeat(2,1fr);
     gap: 200px;
     /* text-align: right; */
+    margin-bottom: 70px;
     
 }
 #section-three{
@@ -173,11 +174,19 @@ font-weight: bold;
 text-align: right;
 margin-bottom: 10px;
 }
+.r66{
+    height: 150px;
+    margin-left: -400px;
+    margin-bottom: -50px;
+    
+}
+
 .r55{
     height: 350px;
     margin-right: auto;
 
 }
+
 .action{
     display: flex;
     margin: auto;
@@ -288,6 +297,8 @@ footer{
         text-align: center;
     }
 }
+
+
 @media screen and (max-width:576px){
     #section-three h6{
     text-align: center;
