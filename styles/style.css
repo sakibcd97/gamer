@@ -70,8 +70,9 @@ margin-top: 10px;
     justify-content: space-between;
     margin-top: 20px;
     background-image: url(../images/Group\ 14.png);
+    background-position: 0lvh;
+    padding-bottom: 100px;
     background-repeat: no-repeat;
-    padding: 50px;
 }
 #first-section{
     margin-top: 80px;
@@ -157,8 +158,8 @@ h4{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 200px;
+    margin-bottom: 50px;
     /* text-align: right; */
-    margin-bottom: 70px;
     
 }
 #section-three{
@@ -174,6 +175,7 @@ font-weight: bold;
 text-align: right;
 margin-bottom: 10px;
 }
+
 .r66{
     height: 100px;
     margin-left: -350px;
@@ -190,8 +192,6 @@ margin-bottom: 10px;
 .action{
     display: flex;
     margin: auto;
-    align-items: center;
-    justify-content: center;
 }
 .action:hover{
     border: 5px solid black;
@@ -298,15 +298,6 @@ footer{
         text-align: center;
     }
 }
-@media screen and (max-width:576px) {
-    .r55-r66 {
-       height: 350px;
-       width: 250px;
-       justify-content: center;
-    }
-}
-
-
 @media screen and (max-width:576px){
     #section-three h6{
     text-align: center;
@@ -418,5 +409,12 @@ footer{
      margin-left: 1ch;
     }
 }
-
+@media screen and (max-width:576px) {
+    .r66-r55 {
+       height: 350px;
+       width: 250px;
+       justify-content: center;
+       margin-right: 50px;
+    }
+}
 
