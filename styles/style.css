@@ -63,14 +63,14 @@ margin-top: 10px;
     justify-content: space-between;
 }
 .first-section{
-    background-color:rgb(254, 212, 255);
+    background-color:rgb(255, 233, 255);
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     background-image: url(../images/Group\ 14.png);
-    background-position: 0lvh;
+    background-repeat: no-repeat;
     padding: 50px;
 }
 #first-section{
@@ -175,14 +175,14 @@ text-align: right;
 margin-bottom: 10px;
 }
 .r66{
-    height: 150px;
-    margin-left: -400px;
-    margin-bottom: -50px;
+    height: 100px;
+    margin-left: -350px;
+    margin-bottom: -30px;
     
 }
 
 .r55{
-    height: 350px;
+    height: 300px;
     margin-right: auto;
 
 }
@@ -295,6 +295,13 @@ footer{
         grid-template-columns: repeat(1,1fr);
         gap: 30px;
         text-align: center;
+    }
+}
+@media screen and (max-width:576px) {
+    .r55-r66 {
+       height: 350px;
+       width: 250px;
+       justify-content: center;
     }
 }
 
