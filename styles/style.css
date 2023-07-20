@@ -121,7 +121,7 @@ h1{
     margin-bottom: 10px;
 }
 h5{
-    font-size: xx-large;
+    font-size: 30px;
     font-weight: bolder;
     margin-left: 50px;
     margin-right: 50px;
@@ -243,7 +243,7 @@ margin-bottom: 10px;
     width: 50px;
     font-weight: bold;
 }
-.grid-section{
+.grid-section-area{
     margin-bottom: 30px;
 }
 .grid-5{
@@ -295,17 +295,17 @@ margin-bottom: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
-#footer-text a{
+#f-text-area a{
     font-size: medium;
     font-weight: 400;
 }
-.copyright{
+.copyright-area{
     color: aliceblue;
 }
 footer{
   padding: 50px;
 }
-.footer-copyright{
+.f-copyright-area{
     margin-top: 30px;
 }
 .main-avater{
@@ -433,7 +433,7 @@ footer{
     }
 }
 @media screen and (max-width:576px){
-    #footer-text{
+    #f-text-area{
       display: grid;
       grid-template-columns: repeat(2,1fr);
       gap: 20px;
