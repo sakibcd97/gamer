@@ -23,6 +23,9 @@ margin-top: 10px;
     display: flex;
     margin-right: 50px;
     margin-top: 15px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: auto;
     
 }
 .header-icon:hover{
@@ -415,6 +418,12 @@ footer{
        width: 250px;
        justify-content: center;
        margin-right: 50px;
+    }
+}
+@media screen and (max-width:576px) {
+    .header-icon {
+      margin-left: 50px;
+      background-size: 0%;
     }
 }
 
